@@ -6,6 +6,13 @@
 
 - clean: ["~"]
 
+- link:
+    ~/.config/git:
+      path: git
+
+    ~/.gitconfig:
+      path: ~/.config/git/gitconfig
+
 - create:
     ~/personal:
       mode: 0755
