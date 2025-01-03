@@ -28,6 +28,11 @@
     ~/.bashrc:
       path: bash/bashrc
 
+    ~/.config/tmux:
+      path: tmux
+
+    ~/.tmux.conf:
+      path: tmux/tmux.conf
 - create:
     ~/personal:
       mode: 0755
