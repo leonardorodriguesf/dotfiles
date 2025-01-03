@@ -13,6 +13,21 @@
     ~/.gitconfig:
       path: ~/.config/git/gitconfig
 
+    ~/.config/shell:
+      path: shell
+
+    ~/.config/zsh:
+      path: zsh
+
+    ~/.zshrc:
+      path: zsh/zshrc
+
+    ~/.config/bash:
+      path: bash
+
+    ~/.bashrc:
+      path: bash/bashrc
+
 - create:
     ~/personal:
       mode: 0755
