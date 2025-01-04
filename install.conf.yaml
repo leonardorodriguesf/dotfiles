@@ -33,6 +33,13 @@
 
     ~/.tmux.conf:
       path: tmux/tmux.conf
+
+    ~/.config/starship:
+      path: starship
+
+    ~/.config/alacritty:
+      path: alacritty
+
 - create:
     ~/personal:
       mode: 0755
