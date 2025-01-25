@@ -33,9 +33,6 @@ old = black red strike
 new = black green italic
 context = yellow bold # context (ie: unchanged lines) text
 
-[includeIf "gitdir:~/work/**/.git"]
-path = ~/.config/git/gitconfig_work
-
 # Allow local customizations in the .gitconfig_local file
 [include]
 path = ~/.gitconfig_local
